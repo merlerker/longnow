@@ -387,7 +387,7 @@ class Lamp {
   }
 
   display() {
-    if (!mode==2) {
+    if (mode!=2) {
       if (isDay) {
         image(this.imgs[0], this.x, this.y);
       }
